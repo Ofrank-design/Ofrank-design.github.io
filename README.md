@@ -20,11 +20,20 @@
 
 ## 👋 About Me
 
-> *"I'm not waiting until graduation to build experience."*
+# Hi, I'm Frank Oduro 👋
 
-I'm **Frank Oduro**, a Procurement & Supply Chain Management student at **Kumasi Technical University (KSTU)**, enrolled October 2026. While most students wait until final year to think about their career, I'm building a hands-on project portfolio from **Day 1** — real ERP transactions, live dashboards built from Ghana public data, actual SLA documents, and supplier scorecards.
+> *"Bridging academic theory with hands-on supply chain innovation from Day 1."*
 
-By the time I graduate in 2030, recruiters won't have to take my word for my skills. They'll be able to see them here.
+I am a Procurement and Supply Chain Management student at Kumasi Technical University (KsTU), enrolled in October 2026. Rather than relying solely on traditional coursework, I am proactively utilizing this GitHub repository as a digital portfolio to document practical applications of my learning ahead of my 2030 graduation.
+
+### 💼 What I am Building
+Here, you will find active projects focused on public data, operational transparency, and operational efficiency:
+- **Data-Driven Dashboards:** Live analytical tools built utilizing Ghanaian public sector procurement data.
+- **Enterprise Resource Planning (ERP):** Simulated end-to-end ERP transaction workflows and inventory models.
+- **Contract Management:** Standardized Service Level Agreements (SLAs) and automated supplier scorecards.
+
+My goal is to graduate with a verified track record of technical competence, providing prospective employers and collaborators with transparent, measurable evidence of my strategic procurement skills.
+
 
 ---
 
