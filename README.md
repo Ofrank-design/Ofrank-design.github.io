@@ -1,6 +1,17 @@
 <div align="center">
 
 <!--Banner-->
+<p align="center">
+  <img src="https://user-gen-media-assets.s3.amazonaws.com/seedream_images/d3dc00bf-c4f7-4acc-889a-93a005e715ce.png" alt="Luxury futuristic procurement banner" width="100%" />
+</p>
+
+
+
+
+
+
+
+
 
 
 <!--Night Owl image-->
