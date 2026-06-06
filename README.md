@@ -1,16 +1,5 @@
 <div align="center">
 
-![Excel](https://img.shields.io/badge/Excel-Learning-217346?logo=microsoftexcel)
-![SAP](https://img.shields.io/badge/SAP%20MM-Learning-0FAAFF?logo=sap)
-![Power BI](https://img.shields.io/badge/Power%20BI-In%20Progress-F2C811?logo=powerbi)
-![Ghana](https://img.shields.io/badge/KSTU-Kumasi%2C%20Ghana-006B3F)
-
-![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
-![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-![SAP](https://img.shields.io/badge/SAP-0FAAFF?style=for-the-badge&logo=sap&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-
-
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0d2149,d4a843&height=200&section=header&text=Frank%20Oduro&fontSize=60&fontFamily=Georgia&fontColor=ffffff&animation=fadeIn&desc=Procurement%20%26%20Supply%20Chain%20Professional&descSize=18&descColor=d4a843&descAlignY=72"/>
 
 <!-- BADGES -->
