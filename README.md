@@ -1,12 +1,5 @@
 <p align="center"> 
-</p>
-<p align="center">
-  <img src="./assets/banner.png" width="100%">
 
-
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=24&pause=1200&color=00D9FF&center=true&vCenter=true&width=850&lines=Procurement+%26+Supply+Chain+Management+Student;Global+Logistics+Enthusiast;Strategic+Sourcing+%7C+Inventory+Management;Future+Supply+Chain+Leader;Building+Efficient+Global+Networks" />
-</p>
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=YOURUSERNAME&label=PROFILE+VIEWS&color=0e75b6&style=for-the-badge"/>
@@ -14,42 +7,9 @@
 
 ---
 
-# 🌍 About Me
-
-<table align="center">
-<tr>
-<td align="center">📦</td>
-<td>Inventory Management</td>
-</tr>
-
-<tr>
-<td align="center">🚢</td>
-<td>Logistics Coordination</td>
-</tr>
-
-<tr>
-<td align="center">📈</td>
-<td>Supply Chain Analytics</td>
-</tr>
-
-<tr>
-<td align="center">🤝</td>
-<td>Supplier Relationship Management</td>
-</tr>
-
-<tr>
-<td align="center">💰</td>
-<td>Strategic Procurement</td>
-</tr>
-
-<tr>
-<td align="center">🌍</td>
-<td>Global Trade Operations</td>
-</tr>
 
 </table>
 
----
 
 # 🛠 Tools & Technologies
 
