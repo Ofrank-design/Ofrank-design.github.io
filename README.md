@@ -1,6 +1,7 @@
 
 </svg>
 
+<img width="728" height="280" alt="global-logistics-international-delivery-concept-260nw-2269435323" src="https://github.com/user-attachments/assets/b3c8e8e4-7394-459f-b07a-cb26c2fff8cc" />
 
 </p>
 </p>
