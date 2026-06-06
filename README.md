@@ -1,3 +1,4 @@
+<img width="2048" height="512" alt="PwC_-_Recruitment_banner_-_1600x400px_azkrc2" src="https://github.com/user-attachments/assets/e84f10de-9721-4379-b119-03efffe57b84" />
 
 <!--Night Owl image-->
 <div>
