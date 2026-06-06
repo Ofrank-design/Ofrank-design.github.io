@@ -2,13 +2,7 @@
 </p>
 <p align="center">
   <img src="./assets/banner.png" width="100%">
-</p>
 
-<h1 align="center">🚢 Frank A. | Procurement & Supply Chain Management</h1>
-
-<h3 align="center">
-Optimizing Supply Chains • Managing Procurement • Driving Logistics Excellence
-</h3>
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=24&pause=1200&color=00D9FF&center=true&vCenter=true&width=850&lines=Procurement+%26+Supply+Chain+Management+Student;Global+Logistics+Enthusiast;Strategic+Sourcing+%7C+Inventory+Management;Future+Supply+Chain+Leader;Building+Efficient+Global+Networks" />
@@ -134,7 +128,6 @@ G --> B
 
 <p align="center">
 
-### 🚢 "Efficient Supply Chains Build Strong Economies."
 
 </p>
 </p>
