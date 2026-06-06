@@ -236,11 +236,11 @@ CIPS 7-step framework · Make-vs-buy · Competitive tendering
 </a>
 
 <a href="https://www.instagram.com/_anonymoustroy" target="_blank">
-<img src="./instagram.png" width=50 height=50 alt="kiran_a_n" style="margin-bottom: 5px;" />
+<img src="./instagram.png" width=50 height=50 alt="_anonymoustroy" style="margin-bottom: 5px;" />
 </a>
 
 <a href="https://www.githubcom/ofrank-design" target="_blank">
-<img src="./github.png" width=50 height=50 alt="Kiran1689" style="margin-bottom: 5px;" />
+<img src="./github.png" width=50 height=50 alt="ofrank-design" style="margin-bottom: 5px;" />
 </a>
 <a href="https://www.linkedin.com/in/frankoduro1912/" target="_blank">
 <img src="./linkedin.png" width=50 height=50 alt="linkedin" style="margin-bottom: 5px;" />
