@@ -32,7 +32,11 @@ By the time I graduate in 2030, recruiters won't have to take my word for my ski
 ---
 
 ## 🛠️ Technical Skills
-
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./Skills_Animation_Dark.gif">
+  <source media="(prefers-color-scheme: light)" srcset="./Skills_Animation_White.gif">
+  <img align="left" alt="GIF description" src="./Skills_Animation_White.gif">
+</picture>
 <table>
 <tr>
 <td width="50%">
