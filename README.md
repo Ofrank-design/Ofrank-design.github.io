@@ -1,12 +1,5 @@
 <p align="center">
-  <img src="https://user-gen-media-assets.s3.amazonaws.com/seedream_images/d3dc00bf-c4f7-4acc-889a-93a005e715ce.png" alt="Luxury futuristic procurement banner" width="100%" style="height:auto;" />
-</p>
-
-<h1 align="center">SupplyChainX</h1>
-
-<p align="center">
-  <strong>frankoduro1912@gmail.com</strong> • <strong>@_anonymoustroy</strong> • <strong>frankoduro1912</strong>
-</p>
+  
 <!-- BADGES -->
 ![Profile Views](https://komarev.com/ghpvc/?username=frank-oduro&color=d4a843&style=flat-square&label=Profile+Views)
 ![Student](https://img.shields.io/badge/KSTU-BSc%20Procurement%20%26%20SCM-0d2149?style=flat-square&logo=graduation-cap&logoColor=d4a843)
