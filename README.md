@@ -246,7 +246,7 @@ CIPS 7-step framework · Make-vs-buy · Competitive tendering
 <a href="https://www.githubcom/ofrank-design" target="_blank">
 <img src="./github.png" width=50 height=50 alt="ofrank-design" style="margin-bottom: 5px;" />
 </a>
-<a href="https://www.linkedin.com/in/frankoduro1912/" target="_blank">
+<a href="https://www.linkedin.com/in/ofrank-design/" target="_blank">
 <img src="./linkedin.png" width=50 height=50 alt="linkedin" style="margin-bottom: 5px;" />
 </a>
 
@@ -254,7 +254,7 @@ CIPS 7-step framework · Make-vs-buy · Competitive tendering
 
 <!--Buy me a coffee-->
 <div align="center">
-<a href="https://www.buymeacoffee.com/Kiran1689" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 40px !important;width: 200px !important;" ></a>
+<a href="https://www.buymeacoffee.com/ofrankdesign" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 40px !important;width: 200px !important;" ></a>
 </div>
 
 
