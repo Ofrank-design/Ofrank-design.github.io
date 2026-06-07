@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Frank Oduro | Certifications & Free Programs</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Outfit:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root {
+  --ink:       #080d1a;
+  --navy:      #0d2149;
+  --navy2:     #163270;
+  --navy3:     #1e4096;
+  --gold:      #d4a843;
+  --gold2:     #f0c96a;
+  --gold3:     #fde68a;
+  --cream:     #fdf8ee;
+  --white:     #ffffff;
+  --muted:     #5a6a88;
+  --muted2:    #8899bb;
+  --border:    rgba(212,168,67,0.18);
+  --border2:   rgba(255,255,255,0.07);
+
+  --c-hp:      #3b82f6;
+  --c-dr:      #10b981;
+  --c-alison:  #8b5cf6;
+  --c-wb:      #f97316;
+  --c-ms:      #06b6d4;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: 'Outfit', sans-serif;
+  background: var(--ink);
+  color: var(--white);
+  overflow-x: hidden;
+  cursor: none;
+  min-height: 100vh;
+}
+
+/* ── CURSOR ── */
+#cur  { position:fixed; width:9px;  height:9px;  background:var(--gold); border-radius:50%; pointer-events:none; z-index:9999; transform:translate(-50%,-50%); transition:transform .15s; }
+#curR { position:fixed; width:34px; height:34px; border:1.5px solid var(--gold); border-radius:50%; pointer-events:none; z-index:9998; transform:translate(-50%,-50%); transition:left .07s,top .07s; opacity:.45; }
+
+/* ── NOISE ── */
+body::after {
+  content:'';
+  position:fixed; inset:0;
+  background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");
+  pointer-events:none; z-index:0; opacity:.5;
+}
+
+/* ── GRID BG ── */
+body::before {
+  content:'';
+  position:fixed; inset:0;
+  background-image:
+    linear-gradient(rgba(212,168,67,0.04) 1px,transparent 1px),
+    linear-gradient(90deg,rgba(212,168,67,0.04) 1px,transparent 1px);
+  background-size:55px 55px;
+  pointer-events:none; z-index:0;
+}
+
+/* ── GLOW ORBS ── */
+.orb {
+  position:fixed; border-radius:50%; pointer-events:none; z-index:0;
+  filter:blur(80px);
+}
+.orb1 { width:500px;height:500px; top:-200px;right:-150px; background:radial-gradient(circle,rgba(212,168,67,0.1) 0%,transparent 65%); }
+.orb2 { width:400px;height:400px; bottom:-150px;left:-100px; background:radial-gradient(circle,rgba(13,33,73,0.9) 0%,transparent 65%); }
+.orb3 { width:300px;height:300px; top:40%;left:20%; background:radial-gradient(circle,rgba(59,130,246,0.05) 0%,transparent 65%); }
+
+/* ── LAYOUT ── */
+.wrap { max-width:860px; margin:0 auto; padding:0 1.5rem; position:relative; z-index:1; }
+
+/* ── HERO ── */
+.hero {
+  padding:5rem 1.5rem 3.5rem;
+  position:relative; z-index:1;
+  max-width:860px; margin:0 auto;
+}
+.back-link {
+  display:inline-flex; align-items:center; gap:7px;
+  font-family:'JetBrains Mono',monospace; font-size:11px;
+  letter-spacing:.12em; text-transform:uppercase;
+  color:var(--muted2); text-decoration:none;
+  margin-bottom:2.5rem;
+  transition:color .2s;
+  opacity:0; animation:fadeUp .5s .1s forwards;
+}
+.back-link:hover { color:var(--gold); }
+.back-link::before { content:'←'; font-size:13px; }
+
+.hero-label {
+  font-family:'JetBrains Mono',monospace; font-size:10px;
+  letter-spacing:.2em; color:var(--gold); text-transform:uppercase;
+  display:flex; align-items:center; gap:10px; margin-bottom:1.2rem;
+  opacity:0; animation:fadeUp .5s .2s forwards;
+}
+.hero-label::before { content:''; width:28px; height:1px; background:var(--gold); }
+
+.hero-title {
+  font-family:'Playfair Display',serif;
+  font-size:clamp(2.5rem,6vw,4.5rem);
+  font-weight:900; line-height:1.05; margin-bottom:.6rem;
+  opacity:0; animation:fadeUp .5s .35s forwards;
+}
+.hero-title em {
+  font-style:italic;
+  background:linear-gradient(135deg,var(--gold),var(--gold2));
+  -webkit-background-clip:text; -webkit-text-fill-color:transparent; background-clip:text;
+}
+
+.hero-sub {
+  font-size:15px; color:rgba(255,255,255,0.5); font-weight:300;
+  margin-bottom:2rem; line-height:1.7;
+  opacity:0; animation:fadeUp .5s .5s forwards;
+}
+.hero-sub strong { color:rgba(255,255,255,0.8); font-weight:500; }
+
+.hero-stats {
+  display:flex; flex-wrap:wrap; gap:10px; margin-bottom:2.5rem;
+  opacity:0; animation:fadeUp .5s .65s forwards;
+}
+.hstat {
+  font-family:'JetBrains Mono',monospace; font-size:11px;
+  padding:6px 14px; border-radius:4px;
+  background:rgba(212,168,67,0.08); border:1px solid rgba(212,168,67,0.25);
+  color:var(--gold2);
+}
+
+/* ── DIVIDER ── */
+.divider {
+  height:1px;
+  background:linear-gradient(to right,transparent,var(--border),transparent);
+  margin:0 1.5rem; position:relative; z-index:1;
+}
+
+/* ── SECTION ── */
+.section { padding:4rem 1.5rem; position:relative; z-index:1; max-width:860px; margin:0 auto; }
+.sec-label {
+  font-family:'JetBrains Mono',monospace; font-size:10px;
+  letter-spacing:.18em; color:var(--gold); text-transform:uppercase;
+  display:flex; align-items:center; gap:10px; margin-bottom:.8rem;
+}
+.sec-label::after { content:''; flex:1; max-width:50px; height:1px; background:var(--gold); opacity:.35; }
+.sec-title {
+  font-family:'Playfair Display',serif;
+  font-size:clamp(1.6rem,3.5vw,2.4rem); font-weight:700;
+  color:var(--white); margin-bottom:2.5rem; line-height:1.25;
+}
+.sec-title span { color:var(--gold); }
+
+/* ── CERT CARDS ── */
+.cert-list { display:flex; flex-direction:column; gap:14px; }
+
+.cert-card {
+  background:rgba(255,255,255,0.02);
+  border:1px solid var(--border2);
+  border-radius:14px; padding:22px 24px;
+  display:grid; grid-template-columns:auto 1fr auto;
+  gap:18px; align-items:center;
+  transition:all .3s; position:relative; overflow:hidden;
+  cursor:default;
+}
+.cert-card::before {
+  content:''; position:absolute; left:0; top:0; bottom:0; width:3px;
+  background:var(--card-color); transform:scaleY(0); transform-origin:bottom;
+  transition:transform .35s ease;
+}
+.cert-card:hover::before { transform:scaleY(1); }
+.cert-card:hover {
+  background:rgba(255,255,255,0.04);
+  border-color:rgba(255,255,255,0.12);
+  transform:translateX(5px);
+}
+
+.cert-icon {
+  width:44px; height:44px; border-radius:10px;
+  background:rgba(255,255,255,0.04);
+  border:1px solid rgba(255,255,255,0.08);
+  display:flex; align-items:center; justify-content:center;
+  font-size:1.3rem; flex-shrink:0;
+}
+
+.cert-body {}
+.cert-name {
+  font-size:15px; font-weight:600; color:var(--white); margin-bottom:5px; line-height:1.35;
+}
+.cert-provider {
+  font-family:'JetBrains Mono',monospace; font-size:11px;
+  color:var(--muted2); letter-spacing:.04em; margin-bottom:9px;
+}
+.cert-relevance { font-size:12px; color:rgba(255,255,255,0.45); line-height:1.6; }
+.cert-tags { display:flex; flex-wrap:wrap; gap:5px; margin-top:9px; }
+.ctag {
+  font-family:'JetBrains Mono',monospace; font-size:10px;
+  padding:2px 8px; border-radius:3px;
+  background:rgba(255,255,255,0.04); border:1px solid rgba(255,255,255,0.07);
+  color:rgba(255,255,255,0.45);
+}
+
+.cert-right { text-align:right; flex-shrink:0; }
+.status-pill {
+  font-family:'JetBrains Mono',monospace; font-size:10px;
+  padding:5px 11px; border-radius:20px; white-space:nowrap;
+  display:inline-block; margin-bottom:8px;
+}
+.s-todo     { background:rgba(212,168,67,0.1); color:var(--gold2); border:1px solid rgba(212,168,67,0.25); }
+.s-progress { background:rgba(16,185,129,0.1); color:#34d399; border:1px solid rgba(16,185,129,0.2); }
+.s-done     { background:rgba(99,102,241,0.1); color:#a5b4fc; border:1px solid rgba(99,102,241,0.2); }
+
+.cert-link {
+  font-family:'JetBrains Mono',monospace; font-size:10px;
+  color:var(--muted); text-decoration:none; letter-spacing:.04em;
+  transition:color .2s; display:block; margin-top:4px;
+}
+.cert-link:hover { color:var(--gold); }
+
+/* ── PROGRESS BAR ── */
+.prog-wrap { margin-top:10px; }
+.prog-top {
+  display:flex; justify-content:space-between;
+  font-family:'JetBrains Mono',monospace; font-size:9px;
+  color:var(--muted); margin-bottom:4px; letter-spacing:.05em;
+}
+.prog-bar { height:2px; background:rgba(255,255,255,0.06); border-radius:2px; overflow:hidden; }
+.prog-fill { height:100%; border-radius:2px; width:0; transition:width 1.4s ease; background:var(--card-color); }
+
+/* ── TIMELINE ── */
+.timeline { position:relative; padding-left:28px; }
+.timeline::before {
+  content:''; position:absolute; left:7px; top:8px; bottom:8px;
+  width:1px; background:linear-gradient(to bottom,var(--gold),transparent);
+}
+.tl-item { position:relative; margin-bottom:2rem; }
+.tl-item::before {
+  content:''; position:absolute; left:-24px; top:7px;
+  width:8px; height:8px; border-radius:50%;
+  background:var(--gold); border:2px solid var(--ink);
+  box-shadow:0 0 0 3px rgba(212,168,67,0.18);
+}
+.tl-when {
+  font-family:'JetBrains Mono',monospace; font-size:10px;
+  color:var(--gold); letter-spacing:.1em; margin-bottom:3px;
+}
+.tl-title { font-size:14px; font-weight:600; color:var(--white); margin-bottom:6px; }
+.tl-chips { display:flex; flex-wrap:wrap; gap:5px; }
+.tl-chip {
+  font-size:11px; padding:3px 10px; border-radius:20px;
+  background:rgba(255,255,255,0.04); color:rgba(255,255,255,0.55);
+  border:1px solid rgba(255,255,255,0.07);
+}
+
+/* ── TIPS BOX ── */
+.tips-grid { display:grid; grid-template-columns:1fr 1fr; gap:12px; }
+@media(max-width:540px){ .tips-grid{ grid-template-columns:1fr; } }
+.tip-card {
+  background:rgba(255,255,255,0.02); border:1px solid var(--border2);
+  border-radius:10px; padding:18px;
+  transition:all .25s;
+}
+.tip-card:hover { background:rgba(212,168,67,0.04); border-color:var(--border); transform:translateY(-3px); }
+.tip-num {
+  font-family:'Playfair Display',serif; font-size:2rem; font-weight:900;
+  color:rgba(212,168,67,0.15); line-height:1; margin-bottom:6px;
+}
+.tip-title { font-size:13px; font-weight:600; color:var(--white); margin-bottom:5px; }
+.tip-body { font-size:12px; color:var(--muted2); line-height:1.65; }
+
+/* ── FOOTER ── */
+.footer {
+  padding:2rem 1.5rem; position:relative; z-index:1;
+  border-top:1px solid var(--border);
+  display:flex; justify-content:space-between; align-items:center;
+  flex-wrap:wrap; gap:8px; max-width:860px; margin:0 auto;
+}
+.footer-text { font-family:'JetBrains Mono',monospace; font-size:10px; color:var(--muted); }
+.footer-gold { color:var(--gold); }
+
+/* ── ANIMATIONS ── */
+@keyframes fadeUp {
+  from { opacity:0; transform:translateY(18px); }
+  to   { opacity:1; transform:translateY(0); }
+}
+.reveal { opacity:0; transform:translateY(20px); transition:opacity .6s ease,transform .6s ease; }
+.reveal.vis { opacity:1; transform:none; }
+
+/* ── MOBILE ── */
+@media(max-width:560px){
+  .cert-card { grid-template-columns:auto 1fr; }
+  .cert-right { grid-column:2; }
+}
+</style>
+</head>
+<body>
+
+<div id="cur"></div>
+<div id="curR"></div>
+<div class="orb orb1"></div>
+<div class="orb orb2"></div>
+<div class="orb orb3"></div>
+
+<!-- ══ HERO ══ -->
+<div class="hero">
+  <a href="index.html" class="back-link">Back to Portfolio</a>
+  <div class="hero-label">Learning Pathway</div>
+  <h1 class="hero-title">Certifications &amp;<br><em>Free Programs</em></h1>
+  <p class="hero-sub">5 globally recognised programs studied alongside my <strong>KSTU BSc Procurement &amp; Supply Chain Management</strong> degree. Every certificate directly reinforces a module or portfolio project.</p>
+  <div class="hero-stats">
+    <span class="hstat">5 Programs</span>
+    <span class="hstat">100% Free</span>
+    <span class="hstat">All Self-Paced</span>
+    <span class="hstat">Linked to KSTU Modules</span>
+  </div>
+</div>
+
+<div class="divider"></div>
+
+<!-- ══ CERTS ══ -->
+<section class="section">
+  <div class="sec-label reveal">Programs</div>
+  <h2 class="sec-title reveal">5 Certificates.<br><span>Zero Cost.</span> Maximum Impact.</h2>
+
+  <div class="cert-list">
+
+    <!-- 1. HP LIFE -->
+    <div class="cert-card reveal" style="--card-color:var(--c-hp)">
+      <div class="cert-icon">🖥️</div>
+      <div class="cert-body">
+        <div class="cert-name">Inventory Management Certificate</div>
+        <div class="cert-provider">HP LIFE — life.hp.com</div>
+        <div class="cert-relevance">Covers inventory control, EOQ, safety stock, and stock planning — directly supports <strong style="color:rgba(255,255,255,0.7)">Project 4</strong> (Inventory Optimization Model) and KSTU modules PSCM 163 &amp; Quantitative Studies.</div>
+        <div class="cert-tags">
+          <span class="ctag">EOQ</span>
+          <span class="ctag">Safety Stock</span>
+          <span class="ctag">Stock Planning</span>
+          <span class="ctag">Inventory Control</span>
+          <span class="ctag">PSCM 163</span>
+        </div>
+        <div class="prog-wrap">
+          <div class="prog-top"><span>Completion</span><span>Year 1 Priority</span></div>
+          <div class="prog-bar"><div class="prog-fill" data-w="0"></div></div>
+        </div>
+      </div>
+      <div class="cert-right">
+        <div class="status-pill s-todo">To Do</div>
+        <a href="https://life.hp.com" target="_blank" class="cert-link">life.hp.com →</a>
+      </div>
+    </div>
+
+    <!-- 2. DisasterReady -->
+    <div class="cert-card reveal" style="--card-color:var(--c-dr)">
+      <div class="cert-icon">🌍</div>
+      <div class="cert-body">
+        <div class="cert-name">Procurement &amp; Logistics Certificate</div>
+        <div class="cert-provider">DisasterReady + Mercy Corps — disasterready.org</div>
+        <div class="cert-relevance">Covers procurement, warehousing, fleet management, and asset management in real-world humanitarian supply chains. Reinforces <strong style="color:rgba(255,255,255,0.7)">PSCM 165/166 Sourcing</strong> and Stores Admin &amp; Warehousing modules in Years 3–4.</div>
+        <div class="cert-tags">
+          <span class="ctag">Procurement</span>
+          <span class="ctag">Warehousing</span>
+          <span class="ctag">Fleet Management</span>
+          <span class="ctag">Asset Management</span>
+          <span class="ctag">Humanitarian SCM</span>
+        </div>
+        <div class="prog-wrap">
+          <div class="prog-top"><span>Completion</span><span>Year 1–2</span></div>
+          <div class="prog-bar"><div class="prog-fill" data-w="0"></div></div>
+        </div>
+      </div>
+      <div class="cert-right">
+        <div class="status-pill s-todo">To Do</div>
+        <a href="https://www.disasterready.org" target="_blank" class="cert-link">disasterready.org →</a>
+      </div>
+    </div>
+
+    <!-- 3. Alison -->
+    <div class="cert-card reveal" style="--card-color:var(--c-alison)">
+      <div class="cert-icon">🎓</div>
+      <div class="cert-body">
+        <div class="cert-name">Supply Chain Management Diploma</div>
+        <div class="cert-provider">Alison — alison.com</div>
+        <div class="cert-relevance">Full diploma covering supply chain fundamentals, logistics, and operations management. Ideal Year 1 foundation that reinforces your entire KSTU degree from Semester 1. One of the most recognised free SCM credentials globally.</div>
+        <div class="cert-tags">
+          <span class="ctag">SCM Fundamentals</span>
+          <span class="ctag">Logistics</span>
+          <span class="ctag">Operations</span>
+          <span class="ctag">Diploma Level</span>
+          <span class="ctag">Free Certificate</span>
+        </div>
+        <div class="prog-wrap">
+          <div class="prog-top"><span>Completion</span><span>Year 1 — Start Now</span></div>
+          <div class="prog-bar"><div class="prog-fill" data-w="0"></div></div>
+        </div>
+      </div>
+      <div class="cert-right">
+        <div class="status-pill s-todo">To Do</div>
+        <a href="https://alison.com" target="_blank" class="cert-link">alison.com →</a>
+      </div>
+    </div>
+
+    <!-- 4. World Bank -->
+    <div class="cert-card reveal" style="--card-color:var(--c-wb)">
+      <div class="cert-icon">🏛️</div>
+      <div class="cert-body">
+        <div class="cert-name">E-Procurement Learning Program</div>
+        <div class="cert-provider">World Bank Group — worldbank.org/procurement</div>
+        <div class="cert-relevance">Covers public procurement systems, Ghana e-GP portal, and digital procurement frameworks. Essential for <strong style="color:rgba(255,255,255,0.7)">Project 7</strong> (Compliance &amp; Ethics) and KSTU modules Public Procurement I &amp; II, and Business Systems &amp; E-Procurement.</div>
+        <div class="cert-tags">
+          <span class="ctag">Public Procurement</span>
+          <span class="ctag">e-GP Portal</span>
+          <span class="ctag">Digital Systems</span>
+          <span class="ctag">Acts 663 &amp; 914</span>
+          <span class="ctag">PSCM 363/364</span>
+        </div>
+        <div class="prog-wrap">
+          <div class="prog-top"><span>Completion</span><span>Year 2–3</span></div>
+          <div class="prog-bar"><div class="prog-fill" data-w="0"></div></div>
+        </div>
+      </div>
+      <div class="cert-right">
+        <div class="status-pill s-todo">To Do</div>
+        <a href="https://www.worldbank.org/en/projects-operations/procurement" target="_blank" class="cert-link">worldbank.org →</a>
+      </div>
+    </div>
+
+    <!-- 5. Microsoft Learn -->
+    <div class="cert-card reveal" style="--card-color:var(--c-ms)">
+      <div class="cert-icon">📊</div>
+      <div class="cert-body">
+        <div class="cert-name">Power BI Learning Path</div>
+        <div class="cert-provider">Microsoft Learn — learn.microsoft.com</div>
+        <div class="cert-relevance">Complete structured path from zero to building live procurement dashboards. Directly produces <strong style="color:rgba(255,255,255,0.7)">Project 5</strong> (Ghana Spend Dashboard) and supports PSCM 272 Stores Management (Spreadsheet Application) in Year 2.</div>
+        <div class="cert-tags">
+          <span class="ctag">Power BI</span>
+          <span class="ctag">Dashboards</span>
+          <span class="ctag">Data Analysis</span>
+          <span class="ctag">Reporting</span>
+          <span class="ctag">Project 5</span>
+        </div>
+        <div class="prog-wrap">
+          <div class="prog-top"><span>Completion</span><span>Year 2 Sem 2</span></div>
+          <div class="prog-bar"><div class="prog-fill" data-w="0"></div></div>
+        </div>
+      </div>
+      <div class="cert-right">
+        <div class="status-pill s-todo">To Do</div>
+        <a href="https://learn.microsoft.com/en-us/training/powerbi/" target="_blank" class="cert-link">learn.microsoft.com →</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- ══ TIMELINE ══ -->
+<section class="section">
+  <div class="sec-label reveal">Schedule</div>
+  <h2 class="sec-title reveal">When to Complete <span>Each One</span></h2>
+  <div class="timeline reveal">
+    <div class="tl-item">
+      <div class="tl-when">YEAR 1 · 2026–2027</div>
+      <div class="tl-title">Start with Alison Diploma + HP LIFE Inventory</div>
+      <div class="tl-chips">
+        <span class="tl-chip">Alison SCM Diploma</span>
+        <span class="tl-chip">HP LIFE Inventory</span>
+        <span class="tl-chip">Foundation building</span>
+        <span class="tl-chip">~2 hrs/week weekends</span>
+      </div>
+    </div>
+    <div class="tl-item">
+      <div class="tl-when">YEAR 2 · 2027–2028</div>
+      <div class="tl-title">DisasterReady Procurement + Power BI Learning Path</div>
+      <div class="tl-chips">
+        <span class="tl-chip">DisasterReady Certificate</span>
+        <span class="tl-chip">Microsoft Learn Power BI</span>
+        <span class="tl-chip">Pairs with Attachment I</span>
+      </div>
+    </div>
+    <div class="tl-item">
+      <div class="tl-when">YEAR 3 · 2028–2029</div>
+      <div class="tl-title">World Bank E-Procurement — links to Public Procurement modules</div>
+      <div class="tl-chips">
+        <span class="tl-chip">World Bank e-GP</span>
+        <span class="tl-chip">Supports Project 7</span>
+        <span class="tl-chip">PSCM 363 &amp; 364</span>
+      </div>
+    </div>
+    <div class="tl-item">
+      <div class="tl-when">YEAR 4 · 2029–2030</div>
+      <div class="tl-title">All 5 certificates on CV — add to GitHub README &amp; LinkedIn</div>
+      <div class="tl-chips">
+        <span class="tl-chip">All 5 complete</span>
+        <span class="tl-chip">LinkedIn badges added</span>
+        <span class="tl-chip">GitHub README updated</span>
+        <span class="tl-chip">Job-ready</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- ══ TIPS ══ -->
+<section class="section">
+  <div class="sec-label reveal">Tips</div>
+  <h2 class="sec-title reveal">How to Get the <span>Most</span> From These</h2>
+  <div class="tips-grid">
+    <div class="tip-card reveal">
+      <div class="tip-num">01</div>
+      <div class="tip-title">Download every certificate immediately</div>
+      <div class="tip-body">As soon as you finish a program, download the PDF certificate. Upload it to the matching project folder in your GitHub repo and add it to LinkedIn under Licences &amp; Certifications.</div>
+    </div>
+    <div class="tip-card reveal">
+      <div class="tip-num">02</div>
+      <div class="tip-title">Do them during semester breaks</div>
+      <div class="tip-body">KSTU exam periods and semester breaks are the best time. You're not juggling lectures so you can focus. Aim to complete one program every semester break.</div>
+    </div>
+    <div class="tip-card reveal">
+      <div class="tip-num">03</div>
+      <div class="tip-title">Link each cert to a portfolio project</div>
+      <div class="tip-body">Every certificate should produce something. HP LIFE → Excel inventory model. Power BI → live dashboard. World Bank → compliance report. Certs without output are just paper.</div>
+    </div>
+    <div class="tip-card reveal">
+      <div class="tip-num">04</div>
+      <div class="tip-title">Update your README status when done</div>
+      <div class="tip-body">Change "To Do" to "✅ Completed — Month Year" in your GitHub README and on this page. A growing list of completed certs signals momentum to any recruiter who checks.</div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- ══ FOOTER ══ -->
+<footer class="footer">
+  <span class="footer-text"><span class="footer-gold">Frank Oduro</span> · KSTU BSc Procurement &amp; Supply Chain · 2026–2030</span>
+  <span class="footer-text"><a href="index.html" style="color:var(--gold);text-decoration:none">← Back to Portfolio</a></span>
+</footer>
+
+<script>
+// Cursor
+const cur = document.getElementById('cur'), curR = document.getElementById('curR');
+document.addEventListener('mousemove', e => {
+  cur.style.left = e.clientX+'px'; cur.style.top = e.clientY+'px';
+  curR.style.left = e.clientX+'px'; curR.style.top = e.clientY+'px';
+});
+document.querySelectorAll('a,.cert-card,.tip-card').forEach(el => {
+  el.addEventListener('mouseenter', () => cur.style.transform='translate(-50%,-50%) scale(2.5)');
+  el.addEventListener('mouseleave', () => cur.style.transform='translate(-50%,-50%) scale(1)');
+});
+
+// Scroll reveal
+const obs = new IntersectionObserver(entries => {
+  entries.forEach((e, i) => { if(e.isIntersecting) setTimeout(() => e.target.classList.add('vis'), i*90); });
+}, { threshold:.1 });
+document.querySelectorAll('.reveal').forEach(el => obs.observe(el));
+
+// Progress bars
+const barObs = new IntersectionObserver(entries => {
+  entries.forEach(e => {
+    if(e.isIntersecting) {
+      e.target.querySelectorAll('.prog-fill').forEach(b => { b.style.width = (b.dataset.w||0)+'%'; });
+    }
+  });
+}, { threshold:.3 });
+document.querySelectorAll('.cert-card').forEach(c => barObs.observe(c));
+</script>
+</body>
+</html>
