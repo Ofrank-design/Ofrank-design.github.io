@@ -634,6 +634,125 @@ section {
   .cert-right-main { grid-column:2; }
 }
 
+/* ── STUDY GUIDE ── */
+.sg-commit {
+  background: var(--navy);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1.25rem 1.5rem;
+  margin-bottom: 1.75rem;
+}
+.sg-commit-label {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 10px; letter-spacing: .15em;
+  color: var(--gold); text-transform: uppercase;
+  margin-bottom: .75rem;
+}
+.sg-commit-cards {
+  display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: .75rem;
+}
+.sg-stat {
+  text-align: center;
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 8px; padding: 10px 18px; min-width: 70px;
+}
+.sg-num {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.6rem; font-weight: 700;
+  color: var(--gold2); line-height: 1;
+}
+.sg-lbl {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 9px; color: rgba(255,255,255,0.4);
+  margin-top: 3px; letter-spacing: .04em;
+}
+.sg-commit-note {
+  font-size: 12px; color: rgba(255,255,255,0.45);
+  font-style: italic; line-height: 1.6;
+  border-top: 1px solid rgba(255,255,255,0.06);
+  padding-top: .75rem; margin-top: .25rem;
+}
+.sg-years {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(190px,1fr));
+  gap: 12px; margin-bottom: 1.5rem;
+}
+.sg-year-card {
+  background: rgba(255,255,255,0.02);
+  border: 1px solid rgba(255,255,255,0.07);
+  border-radius: 12px; padding: 16px;
+  transition: all .3s;
+}
+.sg-year-card:hover {
+  background: rgba(255,255,255,0.04);
+  border-color: rgba(212,168,67,0.25);
+  transform: translateY(-4px);
+}
+.sg-year-head {
+  display: flex; align-items: center; gap: 8px; margin-bottom: 8px;
+}
+.sg-year-tag {
+  font-family: 'JetBrains Mono', monospace; font-size: 10px;
+  padding: 3px 10px; border-radius: 20px; font-weight: 500;
+  background: rgba(16,185,129,0.12); color: #34d399;
+  border: 1px solid rgba(16,185,129,0.25);
+}
+.sg-year-dates {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 9px; color: rgba(255,255,255,0.3);
+}
+.sg-year-title {
+  font-size: 14px; font-weight: 600;
+  color: var(--white); margin-bottom: 10px;
+}
+.sg-year-chips { display: flex; flex-wrap: wrap; gap: 5px; }
+.sg-chip {
+  font-size: 11px; padding: 3px 9px; border-radius: 20px;
+  background: rgba(255,255,255,0.04);
+  color: rgba(255,255,255,0.55);
+  border: 1px solid rgba(255,255,255,0.07);
+  transition: all .2s;
+}
+.sg-chip:hover {
+  background: rgba(var(--sc), 0.1);
+  color: var(--white);
+}
+.sg-stats-row {
+  display: flex; flex-wrap: wrap; gap: 10px;
+  padding: 1rem 1.25rem;
+  background: rgba(255,255,255,0.02);
+  border: 1px solid rgba(255,255,255,0.06);
+  border-radius: 10px;
+}
+.sg-mini-stat {
+  display: flex; align-items: center; gap: 8px; flex: 1; min-width: 80px;
+}
+.sg-mini-num {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.5rem; font-weight: 700; color: var(--gold);
+}
+.sg-mini-lbl {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 10px; color: rgba(255,255,255,0.4); letter-spacing: .04em;
+}
+.sg-open-btn {
+  display: inline-flex; align-items: center; gap: 10px;
+  font-family: 'JetBrains Mono', monospace; font-size: 12px;
+  letter-spacing: .08em; color: var(--gold); text-decoration: none;
+  padding: 12px 24px;
+  border: 1px solid rgba(212,168,67,0.35);
+  border-radius: 8px;
+  background: rgba(212,168,67,0.07);
+  transition: all .25s;
+}
+.sg-open-btn:hover {
+  background: rgba(212,168,67,0.14);
+  border-color: rgba(212,168,67,0.6);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(212,168,67,0.15);
+}
+
 /* ── CONTACT ── */
 .contact-grid {
   display: grid;
@@ -738,6 +857,7 @@ footer {
     </div>
     <div class="hero-cta">
       <a href="#projects" class="btn btn-gold">View Projects</a>
+      <a href="#studyguide" class="btn btn-outline">Study Guide</a>
       <a href="#certifications" class="btn btn-outline">Certifications</a>
       <a href="#contact" class="btn btn-outline">Get in Touch</a>
     </div>
@@ -1207,6 +1327,111 @@ footer {
 
 <div class="divider"></div>
 
+<!-- ══ STUDY GUIDE ══ -->
+<section id="studyguide">
+  <div class="section-inner">
+    <div class="section-label reveal">Learning Roadmap</div>
+    <h2 class="section-title reveal">KSTU <span>Study Guide</span></h2>
+
+    <!-- intro -->
+    <p class="reveal" style="font-size:14px;color:rgba(255,255,255,0.55);line-height:1.8;margin-bottom:2rem;max-width:620px">
+      A fully interactive 4-year study schedule aligned to the official KSTU academic calendar — starting <strong style="color:var(--white)">23 October 2026</strong>. Every self-study task is mapped to a real KSTU module code, Ghana public holiday, and exam period.
+    </p>
+
+    <!-- weekly commitment cards -->
+    <div class="sg-commit reveal">
+      <div class="sg-commit-label">Weekly Self-Study Commitment</div>
+      <div class="sg-commit-cards">
+        <div class="sg-stat"><div class="sg-num">2–3</div><div class="sg-lbl">hrs · Year 1</div></div>
+        <div class="sg-stat"><div class="sg-num">3</div><div class="sg-lbl">hrs · Year 2</div></div>
+        <div class="sg-stat"><div class="sg-num">3–4</div><div class="sg-lbl">hrs · Year 3</div></div>
+        <div class="sg-stat"><div class="sg-num">3–4</div><div class="sg-lbl">hrs · Year 4</div></div>
+      </div>
+      <div class="sg-commit-note">📅 Saturday morning (1.5–2 hrs) + one quiet weekday evening (1–2 hrs). Pause 2 weeks before each KSTU exam period.</div>
+    </div>
+
+    <!-- year preview cards -->
+    <div class="sg-years reveal">
+
+      <div class="sg-year-card">
+        <div class="sg-year-head">
+          <div class="sg-year-tag">Year 1</div>
+          <div class="sg-year-dates">Oct 2026 – Jul 2027</div>
+        </div>
+        <div class="sg-year-title">Foundation</div>
+        <div class="sg-year-chips">
+          <span class="sg-chip" style="--sc:#16a34a">✅ Project 4</span>
+          <span class="sg-chip" style="--sc:#3b82f6">Excel Mastery</span>
+          <span class="sg-chip" style="--sc:#3b82f6">Odoo ERP</span>
+          <span class="sg-chip" style="--sc:#6b7280">Acts 663 & 914</span>
+          <span class="sg-chip" style="--sc:#6b7280">PSCM 163–166</span>
+        </div>
+      </div>
+
+      <div class="sg-year-card">
+        <div class="sg-year-head">
+          <div class="sg-year-tag" style="background:rgba(139,92,246,0.15);color:#c4b5fd;border-color:rgba(139,92,246,0.3)">Year 2</div>
+          <div class="sg-year-dates">Oct 2027 – Jul 2028</div>
+        </div>
+        <div class="sg-year-title">ERP & Contracts</div>
+        <div class="sg-year-chips">
+          <span class="sg-chip" style="--sc:#3b82f6">SAP MM</span>
+          <span class="sg-chip" style="--sc:#3b82f6">Oracle Cloud</span>
+          <span class="sg-chip" style="--sc:#8b5cf6">Mock SLA</span>
+          <span class="sg-chip" style="--sc:#10b981">Power BI</span>
+          <span class="sg-chip" style="--sc:#6b7280">Attachment I</span>
+        </div>
+      </div>
+
+      <div class="sg-year-card">
+        <div class="sg-year-head">
+          <div class="sg-year-tag" style="background:rgba(249,115,22,0.15);color:#fdba74;border-color:rgba(249,115,22,0.3)">Year 3</div>
+          <div class="sg-year-dates">Oct 2028 – Jul 2029</div>
+        </div>
+        <div class="sg-year-title">Analytics & Internship</div>
+        <div class="sg-year-chips">
+          <span class="sg-chip" style="--sc:#f97316">Supplier Scorecard</span>
+          <span class="sg-chip" style="--sc:#10b981">Live Dashboard</span>
+          <span class="sg-chip" style="--sc:#06b6d4">Incoterms 2020</span>
+          <span class="sg-chip" style="--sc:#6b7280">Internship</span>
+        </div>
+      </div>
+
+      <div class="sg-year-card">
+        <div class="sg-year-head">
+          <div class="sg-year-tag" style="background:rgba(212,168,67,0.15);color:#f0c96a;border-color:rgba(212,168,67,0.3)">Year 4</div>
+          <div class="sg-year-dates">Oct 2029 – Jul 2030</div>
+        </div>
+        <div class="sg-year-title">Specialise & Graduate</div>
+        <div class="sg-year-chips">
+          <span class="sg-chip" style="--sc:#eab308">Sourcing Strategy</span>
+          <span class="sg-chip" style="--sc:#3b82f6">MS Dynamics</span>
+          <span class="sg-chip" style="--sc:#d4a843">SCOR KPIs</span>
+          <span class="sg-chip" style="--sc:#16a34a">First Job</span>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- stats row -->
+    <div class="sg-stats-row reveal">
+      <div class="sg-mini-stat"><span class="sg-mini-num">8</span><span class="sg-mini-lbl">Semesters</span></div>
+      <div class="sg-mini-stat"><span class="sg-mini-num">28</span><span class="sg-mini-lbl">KSTU Modules</span></div>
+      <div class="sg-mini-stat"><span class="sg-mini-num">7</span><span class="sg-mini-lbl">Projects</span></div>
+      <div class="sg-mini-stat"><span class="sg-mini-num">4</span><span class="sg-mini-lbl">ERP Systems</span></div>
+      <div class="sg-mini-stat"><span class="sg-mini-num">2</span><span class="sg-mini-lbl">Attachments</span></div>
+    </div>
+
+    <!-- open full guide button -->
+    <div class="reveal" style="margin-top:1.5rem">
+      <a href="study-guide.html" class="sg-open-btn" target="_blank">
+        📖 Open Full Interactive Study Guide →
+      </a>
+    </div>
+
+  </div>
+</section>
+
 <!-- ══ CONTACT ══ -->
 <section id="contact">
   <div class="section-inner">
@@ -1223,12 +1448,12 @@ footer {
         <div class="contact-label">LinkedIn</div>
         <div class="contact-value">ofrank-design</div>
       </a>
-      <a href="https://github.com/Ofrank-design" class="contact-card" target="_blank">
+      <a href="https://github.com/frank-oduro" class="contact-card" target="_blank">
         <div class="contact-icon">🐙</div>
         <div class="contact-label">GitHub</div>
         <div class="contact-value">ofrank-design</div>
       </a>
-      <a href="https://ofrank-design.github.io" class="contact-card" target="_blank">
+      <a href="https://frank-oduro.github.io" class="contact-card" target="_blank">
         <div class="contact-icon">🌐</div>
         <div class="contact-label">Portfolio</div>
         <div class="contact-value">ofrank-design.github.io</div>
