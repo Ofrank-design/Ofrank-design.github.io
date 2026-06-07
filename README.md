@@ -170,10 +170,6 @@ CIPS 7-step framework · Make-vs-buy · Competitive tendering
 </div>
 ---
 
-## 🏅 Certifications & Free Programs
-
-> 5 globally recognised programs studied alongside my KSTU degree. Every certificate directly reinforces a module or portfolio project. All 100% free.
-
 <table>
 <thead>
 <tr>
@@ -193,7 +189,7 @@ CIPS 7-step framework · Make-vs-buy · Competitive tendering
 <td>⬜ To Do</td>
 </tr>
 <tr>
-<td><strong>Procurement & Logistics Certificate</strong></td>
+<td><strong>Procurement &amp; Logistics Certificate</strong></td>
 <td><a href="https://www.disasterready.org">DisasterReady + Mercy Corps</a></td>
 <td>PSCM 165/166 · Stores Admin</td>
 <td>Project 2 — Contract Mgmt</td>
@@ -220,13 +216,45 @@ CIPS 7-step framework · Make-vs-buy · Competitive tendering
 <td>Project 5 — Spend Dashboard</td>
 <td>⬜ To Do</td>
 </tr>
+<tr>
+<td><strong>Excel for Business Certificate</strong></td>
+<td><a href="https://www.life-global.org">HP LIFE</a></td>
+<td>PSCM 163 · Quantitative Studies</td>
+<td>Project 1 — Data Tracker</td>
+<td>⬜ To Do</td>
+</tr>
+<tr>
+<td><strong>Business Communication Certificate</strong></td>
+<td><a href="https://www.life-global.org">HP LIFE</a></td>
+<td>PSCM 165 · Stores Administration</td>
+<td>Project 3 — Supplier Email Pack</td>
+<td>⬜ To Do</td>
+</tr>
+<tr>
+<td><strong>Project Management Certificate</strong></td>
+<td><a href="https://www.life-global.org">HP LIFE</a></td>
+<td>PSCM 272 · Procurement Planning</td>
+<td>Project 6 — Procurement Plan</td>
+<td>⬜ To Do</td>
+</tr>
+<tr>
+<td><strong>Business Management Diploma</strong></td>
+<td><a href="https://open.edu/openlearn/">OpenLearn</a></td>
+<td>All Year 1 modules</td>
+<td>Foundation — all projects</td>
+<td>⬜ To Do</td>
+</tr>
+<tr>
+<td><strong>Logistics &amp; Operations Certificate</strong></td>
+<td><a href="https://open.edu/openlearn/">OpenLearn</a></td>
+<td>PSCM 166 · Stores Admin</td>
+<td>Project 8 — Operations Review</td>
+<td>⬜ To Do</td>
+</tr>
 </tbody>
-</table>
+📄 **View full certifications page → <!-- open full CERTIFICATION guide button -->
 
-> **How to track:** Change ⬜ to ✅ and add `Completed — Month Year` as each program is finished. Upload the PDF certificate to the matching project folder.
 
-📄 **[View full certifications page →](https://ofrank-design.github.io)  <!-- open full CERTIFICATION guide button -->
-    
                                   
 <h2 align="center">🤝 Cᴏɴɴᴇᴄᴛ Wɪᴛʜ Mᴇ 🤝 </h2>
 <div align="center">
