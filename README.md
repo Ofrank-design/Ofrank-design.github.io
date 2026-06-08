@@ -288,7 +288,7 @@ CIPS 7-step framework · Make-vs-buy · Competitive tendering
 </tr>
 </tbody>
 </table>
-<📄 **View full certifications page<td><a href="https://ofrank-design.github.io"/ → 
+<📄 **View full certifications page<td><a href="https://ofrank-design.github.io"/ → 📄 **View full certifications
 
                                   
 <h2 align="center">🤝 Cᴏɴɴᴇᴄᴛ Wɪᴛʜ Mᴇ 🤝 </h2>
