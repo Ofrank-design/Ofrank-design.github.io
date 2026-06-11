@@ -8,7 +8,7 @@
 
 <!-- BADGES -->
 <!--Profile Count Badge-->
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=ofrank-design&label=Profile%2500views&color=770677&style=for-the-badge&logo=star" alt="ofrank-design" style="padding-right:20px;" /
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=ofrank-design&label=Profile%999500views&color=770677&style=for-the-badge&logo=star" alt="ofrank-design" style="padding-right:20px;" /
   
 ![Student](https://img.shields.io/badge/KSTU-BSc%20Procurement%20%26%20-0d2149?style=flat-square&logo=graduation-cap&logoColor=d4a843)
 ![Year](https://img.shields.io/badge/Enrolled-October%202026-d4a843?style=flat-square)
