@@ -9,7 +9,7 @@
 <!--Profile Count Badge-->
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=frank-oduro&label=Profile%20views&color=770677&style=for-the-badge&logo=star" alt="Kiran1689" style="padding-right:20px;" /
   
-![Student](https://img.shields.io/badge/KSTU-BSc%20Procurement%20%SupplyChainManagement26%20-0d2149?style=flat-square&logo=graduation-cap&logoColor=d4a843)
+![Student](https://img.shields.io/badge/KSTU-BSc%20Procurement%20%26%20-0d2149?style=flat-square&logo=graduation-cap&logoColor=d4a843)
 ![Year](https://img.shields.io/badge/Enrolled-October%202026-d4a843?style=flat-square)
 ![Location](https://img.shields.io/badge/📍-Kumasi%2C%20Ghana-006B3F?style=flat-square)
 ![Portfolio](https://img.shields.io/badge/Portfolio-Live-brightgreen?style=flat-square&logo=github)
