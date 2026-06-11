@@ -284,10 +284,15 @@ CIPS 7-step framework · Make-vs-buy · Competitive tendering
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=Ofrank-design&theme=chartreuse-dark&hide_border=true" width="48%"/>
 </p>
 
-<h2 align="center"> 💻Top Languages </h2>
+💻Top Languages 
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ofrank-design&theme=tokyonight&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
 
+
+
+<p align="center">🏆 GitHub Trophies </h2>
+  <img src="https://github-profile-trophy.vercel.app/?username=Ofrank-design&rank=SECRET,SSS,SS,S,AAA,AA,A,B,C&theme=matrix&no-frame=true&column=6"/>
+</p>
 <h2 align="center"> 📈Contribution Graph </h2>
 
 <p align="center">
