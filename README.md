@@ -212,14 +212,14 @@ CIPS 7-step framework · Make-vs-buy · Competitive tendering
 <td><a href="https://www.life-global.org">HP LIFE</a></td>
 <td>PSCM 165 · Stores Administration</td>
 <td>Project 3 — Supplier Email Pack</td>
-<td>⬜ To Do</td>
+<td>Completed✅</td>
 </tr>
 <tr>
-<td><strong>Project Management Certificate</strong></td>
+<td><strong>Agile Project Management Certificate</strong></td>
 <td><a href="https://www.life-global.org">HP LIFE</a></td>
 <td>PSCM 272 · Procurement Planning</td>
 <td>Project 6 — Procurement Plan</td>
-<td>⬜ To Do</td>
+<td>Completed✅</td>
 </tr>
 <tr>
 <td><strong>Business Management Diploma</strong></td>
