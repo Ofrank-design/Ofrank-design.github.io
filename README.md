@@ -16,7 +16,6 @@
 
 </div>
 <h2 align="center"> 🔧 TECHNICAL SKILLS </h2>
-### 🔧 Technical Skills
 
 #### 📦 Procurement & Supply Chain
 ![Ghana PPA](https://img.shields.io/badge/Ghana%20PPA%20Acts%20663%20%26%20914-0a4d2e?style=for-the-badge&logoColor=white)
