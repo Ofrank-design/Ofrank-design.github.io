@@ -170,7 +170,7 @@ CIPS 7-step framework · Make-vs-buy · Competitive tendering
 <td><a href="https://life.hp.com">HP LIFE</a></td>
 <td>PSCM 163 · Quantitative Studies</td>
 <td>Project 4 — Inventory Model</td>
-<td>⬜ To Do</td>
+<td>Completed✅ </td>
 </tr>
 <tr>
 <td><strong>Procurement &amp; Logistics Certificate</strong></td>
