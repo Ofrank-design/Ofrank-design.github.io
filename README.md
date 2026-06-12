@@ -152,8 +152,13 @@ CIPS 7-step framework · Make-vs-buy · Competitive tendering
 ---
 
 </div>
+<h2 align="center">🎓 Certifications  </h2>
+ 
+> 17 self-paced certifications mapped directly to 7 portfolio projects and 28 acadamic modules.
+> Built with dedication. Every certificate earned is linked here.
 
-<h2 align="center"> ADDITIONAL CERTIFICATIONS </h2>
+**[▶ View Live Portfolio →](https://ofrank-design.github.io)**
+ 
 <table>
 <thead>
 <tr>
@@ -170,105 +175,119 @@ CIPS 7-step framework · Make-vs-buy · Competitive tendering
 <td><a href="https://life.hp.com">HP LIFE</a></td>
 <td>PSCM 163 · Quantitative Studies</td>
 <td>Project 4 — Inventory Model</td>
-<td>Completed✅ </td>
+<td>Completed✅</td>
 </tr>
 <tr>
-<td><strong>Procurement &amp; Logistics Certificate</strong></td>
-<td><a href="https://www.disasterready.org">DisasterReady + Mercy Corps</a></td>
-<td>PSCM 165/166 · Stores Admin</td>
-<td>Project 2 — Contract Mgmt</td>
+<td><strong>SAP ERP Essential Training</strong></td>
+<td><a href="https://open.sap.com">openSAP</a></td>
+<td>PSCM 264 · ERP Systems</td>
+<td>Project 1 — SAP MM P2P Workflow</td>
 <td>⬜ To Do</td>
 </tr>
 <tr>
-<td><strong>Supply Chain Management Diploma</strong></td>
-<td><a href="https://alison.com">Alison</a></td>
-<td>All Year 1 modules</td>
-<td>Foundation — all projects</td>
-<td>⬜ To Do</td>
-</tr>
-<tr>
-<td><strong>E-Procurement Learning Program</strong></td>
-<td><a href="https://www.worldbank.org/en/projects-operations/procurement">World Bank Group</a></td>
-<td>PSCM 363/364 · PSCM 467</td>
-<td>Project 7 — Compliance</td>
+<td><strong>Law and Contract Management</strong></td>
+<td><a href="https://www.openlearn.co.uk">OpenLearn</a></td>
+<td>PSCM 363 · Contract Law</td>
+<td>Project 2 — Mock SLA & Negotiation</td>
 <td>⬜ To Do</td>
 </tr>
 <tr>
 <td><strong>Power BI Learning Path</strong></td>
 <td><a href="https://learn.microsoft.com/en-us/training/powerbi/">Microsoft Learn</a></td>
 <td>PSCM 272 · Stores Mgmt</td>
-<td>Project 5 — Spend Dashboard</td>
+<td>Project 3 — Supplier Scorecard</td>
 <td>⬜ To Do</td>
 </tr>
 <tr>
-<td><strong>Excel for Business Certificate</strong></td>
-<td><a href="https://alison.com">Alison</a></td>
+<td><strong>Supply Chain Analytics</strong></td>
+<td><a href="https://www.worldbank.org/en/projects-operations/procurement">World Bank</a></td>
+<td>PSCM 363/364 · Data Analysis</td>
+<td>Project 5 — Ghana Spend Dashboard</td>
+<td>⬜ To Do</td>
+</tr>
+<tr>
+<td><strong> Strategic Sourcing & Category Management</strong></td>
+<td><a href="https://www.cips.org.uk">CIPS</a></td>
+<td>PSCM 467 · Strategic Sourcing</td>
+<td>Project 6 — IT Category Plan</td>
+<td>⬜ To Do</td>
+</tr>
+<tr>
+<td><strong>E-Procurement Learning Program</strong></td>
+<td><a href="https://www.worldbank.org/en/projects-operations/procurement">World Bank</a></td>
+<td>PSCM 363/364 · PSCM 467</td>
+<td>Project 7 — Tender Risk Assessment</td>
+<td>⬜ To Do</td>
+</tr>
+<tr>
+<td><strong>Excel & Data Analysis Learning Path</strong></td>
+<td><a href="https://learn.microsoft.com/en-us/training/excel/">Microsoft Learn</a></td>
 <td>PSCM 163 · Quantitative Studies</td>
-<td>Project 1 — Data Tracker</td>
-<td>⬜ To Do</td>
-</tr>
-<tr>
-<td><strong>Business Communication Certificate</strong></td>
-<td><a href="https://www.life-global.org">HP LIFE</a></td>
-<td>PSCM 165 · Stores Administration</td>
-<td>Project 3 — Supplier Email Pack</td>
-<td>Completed✅</td>
-</tr>
-<tr>
-<td><strong>Agile Project Management Certificate</strong></td>
-<td><a href="https://www.life-global.org">HP LIFE</a></td>
-<td>PSCM 272 · Procurement Planning</td>
-<td>Project 6 — Procurement Plan</td>
-<td>Completed✅</td>
-</tr>
-<tr>
-<td><strong>Business Management Diploma</strong></td>
-<td><a href="https://open.edu/openlearn/">OpenLearn</a></td>
-<td>All Year 1 modules</td>
-<td>Foundation — all projects</td>
-<td>⬜ To Do</td>
-</tr>
-<tr>
-<td><strong>Logistics &amp; Operations Certificate</strong></td>
-<td><a href="https://open.edu/openlearn/">OpenLearn</a></td>
-<td>PSCM 166 · Stores Admin</td>
-<td>Project 8 — Operations Review</td>
-<td>⬜ To Do</td>
-</tr>
-<tr>
-<td><strong>Warehouse Management Diploma</strong></td>
-<td><a href="https://alison.com/course/diploma-in-warehouse-management-and-logistics">Alison</a></td>
-<td>PSCM 166 · Stores Administration</td>
-<td>Project 4 — Warehouse Flow</td>
-<td>⬜ To Do</td>
-</tr>
-<tr>
-<td><strong>Procurement and Logistics Certificate</strong></td>
-<td><a href="https://www.disasterready.org/procurement-logistics-certificate">DisasterReady + Mercy Corps</a></td>
-<td>PSCM 165/166 · Stores Admin</td>
-<td>Project 2 — Contract Mgmt</td>
+<td>Projects 1, 3, 4, 5 — Foundation</td>
 <td>⬜ To Do</td>
 </tr>
 <tr>
 <td><strong>Procurement and Contract Management</strong></td>
 <td><a href="https://uniathena.com/lms/student-dashboard/course-landing/196/executive-diploma-in-procurement-contract-management">UniAthena</a></td>
 <td>PSCM 363/364 · PSCM 467</td>
-<td>Project 7 — Compliance</td>
+<td>Projects 2, 6, 7 — Strategy & Compliance</td>
 <td>⬜ To Do</td>
 </tr>
 <tr>
-<td><strong>Introduction to Logistics</strong></td>
-<td><a href="https://alison.com">Alison</a></td>
-<td>PSCM 163 · Logistics Basics</td>
-<td>Project 8 — Operations Review</td>
+<td><strong>ESG & Sustainable Business Practices</strong></td>
+<td><a href="https://www.unglobalcompact.org">UN Global Compact</a></td>
+<td>PSCM 467 · Ethics & Compliance</td>
+<td>Project 7 — Compliance Assessment</td>
 <td>⬜ To Do</td>
 </tr>
 <tr>
-<td><strong>Business Process Management</strong></td>
-<td><a href="https://alison.com">Alison</a></td>
+<td><strong>Procurement & Logistics Certificate</strong></td>
+<td><a href="https://www.disasterready.org">DisasterReady + Mercy Corps</a></td>
+<td>PSCM 165/166 · Stores Admin</td>
+<td>PSCM 165/166</td>
+<td>⬜ To Do</td>
+</tr>
+<tr>
+<td><strong>Global Logistics & SCM</strong></td>
+<td><a href="https://www.worldbank.org/en/projects-operations/procurement">World Bank Open Learning</a></td>
+<td>PSCM 264/365 · Logistics</td>
+<td>PSCM 264/365</td>
+<td>⬜ To Do</td>
+</tr>
+<tr>
+<td><strong>Data Analysis with Python</strong></td>
+<td><a href="https://cognitiveclass.ibm.com">IBM Cognitive Class</a></td>
+<td>PSCM 365 · Advanced Analytics</td>
+<td>Project 5 — Advanced Analytics</td>
+<td>⬜ To Do</td>
+</tr>
+<tr>
+<td><strong>Lean Six Sigma White Belt</strong></td>
+<td><a href="https://www.6sigmastudy.com">6sigmastudy</a></td>
+<td>PSCM 365 · Process Improvement</td>
+<td>PSCM 365 — Process Improvement</td>
+<td>⬜ To Do</td>
+</tr>
+<tr>
+<td><strong>Microsoft Dynamics 365 Fundamentals</strong></td>
+<td><a href="https://learn.microsoft.com/en-us/training/dynamics365/">Microsoft Learn</a></td>
+<td>PSCM 467 · ERP System</td>
+<td>PSCM 467 — ERP System #4</td>
+<td>⬜ To Do</td>
+</tr>
+<tr>
+<td><strong>Business Communication Certificate</strong></td>
+<td><a href="https://www.life-global.org">HP LIFE</a></td>
+<td>PSCM 165 · Stores Administration</td>
+<td>PSCM 165 + Project 3</td>
+<td>Completed✅</td>
+</tr>
+<tr>
+<td><strong>Agile Project Management</strong></td>
+<td><a href="https://www.life-global.org">HP LIFE</a></td>
 <td>PSCM 272 · Procurement Planning</td>
-<td>Project 6 — Process Improvement</td>
-<td>⬜ To Do</td>
+<td>PSCM 272 + Project 6</td>
+<td>Completed✅</td>
 </tr>
 </tbody>
 </table>
