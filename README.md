@@ -131,202 +131,88 @@ CIPS 7-step framework · Make-vs-buy · Competitive tendering
 
 ## 📁 Portfolio Projects
 
-| # | Project | Skills | Status | Folder |
-|---|---------|--------|--------|--------|
-| 01 | **ERP: SAP MM Procure-to-Pay Workflow** | SAP S/4HANA · Full P2P cycle · Transaction docs | 🔵 Year 2 · 2027 | `1-erp-sap-mm/` |
-| 02 | **Contract Management: Mock SLA & Negotiation** | UNDP templates · 5-page SLA · 15% price reduction sim | 🔵 Year 2 · 2027 | `2-contract-management/` |
-| 03 | **Supplier Scorecard & KPI Dashboard** | Excel · Power BI · 10 mock vendors · OTD/quality/price | 🟣 Year 3 · 2028 | `3-supplier-scorecard/` |
-| **04** | **✅ Inventory Optimization Model** | **Excel · EOQ · ABC · Safety Stock · 20 Ghana SKUs** | **✅ Completed Oct 2026** | **`4-inventory-logistics/`** |
-| 05 | **Procurement Analytics: Ghana Spend Dashboard** | Power BI · Live Ghana e-GP data · GHS 2.3M insight | 🟣 Year 3 · 2028 | `5-procurement-analytics/` |
-| 06 | **Strategic Sourcing: IT Category Plan** | CIPS 7-step · TCO model · 10-page strategy doc | 🟡 Year 4 · 2029 | `6-strategic-sourcing/` |
-| 07 | **Compliance & Ethics: Tender Risk Assessment** | Acts 663 & 914 · UN Global Compact · Risk matrix | 🟣 Year 3 · 2028 | `7-compliance-ethics/` |
+| # | Project | Skills | Status |
+|---|---------|--------|--------|
+| 01 | **ERP: SAP MM Procure-to-Pay Workflow** | SAP S/4HANA · Full P2P cycle | 🔵 Year 2 · 2027 |
+| 02 | **Contract Management: Mock SLA & Negotiation** | UNDP templates · 5-page SLA | 🔵 Year 2 · 2027 |
+| 03 | **Supplier Scorecard & KPI Dashboard** | Excel · Power BI · 10 vendors | 🟣 Year 3 · 2028 |
+| **04** | **✅ Inventory Optimization Model** | **Excel · EOQ · ABC · Safety Stock** | **✅ Completed** |
+| 05 | **Procurement Analytics: Ghana Spend Dashboard** | Power BI · Ghana e-GP data | 🟣 Year 3 · 2028 |
+| 06 | **Strategic Sourcing: IT Category Plan** | CIPS 7-step · TCO model | 🟡 Year 4 · 2029 |
+| 07 | **Compliance & Ethics: Tender Risk Assessment** | Acts 663 & 914 · Risk matrix | 🟣 Year 3 · 2028 |
 
----
+**[▶ View Full Portfolio →](https://ofrank-design.github.io)**
+
+
+
+## 🎓 Certifications
+
+> 17 free, self-paced certifications mapped to 7 projects and 28 KSTU modules.
+
+| Program | Provider | Status |
+|---------|----------|--------|
+| ✅ Inventory Management Certificate | HP LIFE | **Completed** |
+| ✅ Business Communication Certificate | HP LIFE | **Completed** |
+| ✅ Agile Project Management | HP LIFE | **Completed** |
+| ⏳ Excel & Data Analysis Learning Path | Microsoft Learn | In Progress |
+| SAP ERP Essential Training | openSAP | Year 2 |
+| Law and Contract Management | OpenLearn | Year 2 |
+| Power BI Learning Path | Microsoft Learn | Year 2 |
+| Supply Chain Analytics | World Bank | Year 3 |
+| Strategic Sourcing & Category Management | CIPS | Year 3 |
+| E-Procurement Learning Program | World Bank | Year 3 |
+| Procurement and Contract Management | UniAthena | Year 3 |
+| ESG & Sustainable Business Practices | UN Global Compact | Year 3–4 |
+| Global Logistics & SCM | World Bank Open Learning | Year 2–3 |
+| Data Analysis with Python | IBM Cognitive Class | Year 3 |
+| Lean Six Sigma White Belt | 6sigmastudy | Year 3 |
+| Oracle Procurement Cloud Fundamentals | Oracle University | Year 2 |
+| Microsoft Dynamics 365 Fundamentals | Microsoft Learn | Year 4 |
+
+**[▶ View Full Certifications →](https://ofrank-design.github.io)**
+
 
 ## 🗺️ 4-Year Roadmap
 
 ```
-2026 ──────────────────────────────────────────────────────── 2030
-  │                                                              │
-  ▼ YEAR 1           ▼ YEAR 2           ▼ YEAR 3    ▼ YEAR 4   │
-  Foundation         ERP & Contracts    Analytics   Specialise  │
-  ─────────          ──────────────     ─────────   ──────────  │
-  ✅ Project 4       Project 1 & 2      Projects    Project 6   │
-  Excel mastery      SAP MM · Oracle    3, 5, 7     MS Dynamics │
-  Odoo install       Power BI           Internship  Thesis      │
-  Acts 663 & 914     SLA drafting       Scorecard   Job-ready   │
+2026 ──────────────────────────────────────────────── 2030
+  │                                                      │
+  ▼ YEAR 1        ▼ YEAR 2       ▼ YEAR 3   ▼ YEAR 4   │
+  Foundation      ERP & SLA      Analytics  Specialise  │
+  ──────────      ─────────      ─────────  ──────────  │
+  ✅ Project 4    Projects 1&2   3, 5, 7    Project 6   │
+  Excel mastery   SAP · Oracle   Internship MS Dynamics  │
+  Odoo · Acts     Power BI       Dashboard  Thesis      │
+  9 Certs         9 Certs        10 Certs   All 17 ✅   │
 ```
 
----
 
-## 📚 KSTU Academic Progress
+## 📈 GitHub Stats
 
-**BSc Procurement & Supply Chain Management** · Kumasi Technical University
-
-| Year | Period | Key Modules | Focus Area |
-|------|--------|-------------|------------|
-| Year 1 | Oct 2026 – Jul 2027 | PSCM 163/164/165/166 · Computer Application · Quant Studies | Foundation + Excel + Ghana Law |
-| Year 2 | Oct 2027 – Jul 2028 | Legal Aspects I & II · Category Mgmt I & II · SCM · **Attachment I** | ERP + Contracts + Power BI |
-| Year 3 | Oct 2028 – Jul 2029 | Negotiation I & II · Public Procurement I & II · Strategic SCM | Analytics + Internship |
-| Year 4 | Oct 2029 – Jul 2030 | Managing Contracts · Logistics · E-Procurement · **PSCM 470 Thesis** | Specialise + Graduate |
-
----
-
-</div>
-<h2 align="center">🎓 Certifications  </h2>
- 
-> 17 self-paced certifications mapped directly to 7 portfolio projects and 28 acadamic modules.
-> Built with dedication. Every certificate earned is linked here.
-
-**[▶ View Live Portfolio →](https://ofrank-design.github.io)**
- 
-<table>
-<thead>
-<tr>
-<th>Program</th>
-<th>Provider</th>
-<th>KSTU Module Link</th>
-<th>Portfolio Link</th>
-<th>Status</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Inventory Management Certificate</strong></td>
-<td><a href="https://life.hp.com">HP LIFE</a></td>
-<td>PSCM 163 · Quantitative Studies</td>
-<td>Project 4 — Inventory Model</td>
-<td>Completed✅</td>
-</tr>
-<tr>
-<td><strong>SAP ERP Essential Training</strong></td>
-<td><a href="https://open.sap.com">openSAP</a></td>
-<td>PSCM 264 · ERP Systems</td>
-<td>Project 1 — SAP MM P2P Workflow</td>
-<td>⬜ To Do</td>
-</tr>
-<tr>
-<td><strong>Law and Contract Management</strong></td>
-<td><a href="https://www.openlearn.co.uk">OpenLearn</a></td>
-<td>PSCM 363 · Contract Law</td>
-<td>Project 2 — Mock SLA & Negotiation</td>
-<td>⬜ To Do</td>
-</tr>
-<tr>
-<td><strong>Power BI Learning Path</strong></td>
-<td><a href="https://learn.microsoft.com/en-us/training/powerbi/">Microsoft Learn</a></td>
-<td>PSCM 272 · Stores Mgmt</td>
-<td>Project 3 — Supplier Scorecard</td>
-<td>⬜ To Do</td>
-</tr>
-<tr>
-<td><strong>Supply Chain Analytics</strong></td>
-<td><a href="https://www.worldbank.org/en/projects-operations/procurement">World Bank</a></td>
-<td>PSCM 363/364 · Data Analysis</td>
-<td>Project 5 — Ghana Spend Dashboard</td>
-<td>⬜ To Do</td>
-</tr>
-<tr>
-<td><strong> Strategic Sourcing & Category Management</strong></td>
-<td><a href="https://www.cips.org.uk">CIPS</a></td>
-<td>PSCM 467 · Strategic Sourcing</td>
-<td>Project 6 — IT Category Plan</td>
-<td>⬜ To Do</td>
-</tr>
-<tr>
-<td><strong>E-Procurement Learning Program</strong></td>
-<td><a href="https://www.worldbank.org/en/projects-operations/procurement">World Bank</a></td>
-<td>PSCM 363/364 · PSCM 467</td>
-<td>Project 7 — Tender Risk Assessment</td>
-<td>⬜ To Do</td>
-</tr>
-<tr>
-<td><strong>Excel & Data Analysis Learning Path</strong></td>
-<td><a href="https://learn.microsoft.com/en-us/training/excel/">Microsoft Learn</a></td>
-<td>PSCM 163 · Quantitative Studies</td>
-<td>Projects 1, 3, 4, 5 — Foundation</td>
-<td>⬜ To Do</td>
-</tr>
-<tr>
-<td><strong>Procurement and Contract Management</strong></td>
-<td><a href="https://uniathena.com/lms/student-dashboard/course-landing/196/executive-diploma-in-procurement-contract-management">UniAthena</a></td>
-<td>PSCM 363/364 · PSCM 467</td>
-<td>Projects 2, 6, 7 — Strategy & Compliance</td>
-<td>⬜ To Do</td>
-</tr>
-<tr>
-<td><strong>ESG & Sustainable Business Practices</strong></td>
-<td><a href="https://www.unglobalcompact.org">UN Global Compact</a></td>
-<td>PSCM 467 · Ethics & Compliance</td>
-<td>Project 7 — Compliance Assessment</td>
-<td>⬜ To Do</td>
-</tr>
-<tr>
-<td><strong>Procurement & Logistics Certificate</strong></td>
-<td><a href="https://www.disasterready.org">DisasterReady + Mercy Corps</a></td>
-<td>PSCM 165/166 · Stores Admin</td>
-<td>PSCM 165/166</td>
-<td>⬜ To Do</td>
-</tr>
-<tr>
-<td><strong>Global Logistics & SCM</strong></td>
-<td><a href="https://www.worldbank.org/en/projects-operations/procurement">World Bank Open Learning</a></td>
-<td>PSCM 264/365 · Logistics</td>
-<td>PSCM 264/365</td>
-<td>⬜ To Do</td>
-</tr>
-<tr>
-<td><strong>Data Analysis with Python</strong></td>
-<td><a href="https://cognitiveclass.ibm.com">IBM Cognitive Class</a></td>
-<td>PSCM 365 · Advanced Analytics</td>
-<td>Project 5 — Advanced Analytics</td>
-<td>⬜ To Do</td>
-</tr>
-<tr>
-<td><strong>Lean Six Sigma White Belt</strong></td>
-<td><a href="https://www.6sigmastudy.com">6sigmastudy</a></td>
-<td>PSCM 365 · Process Improvement</td>
-<td>PSCM 365 — Process Improvement</td>
-<td>⬜ To Do</td>
-</tr>
-<tr>
-<td><strong>Microsoft Dynamics 365 Fundamentals</strong></td>
-<td><a href="https://learn.microsoft.com/en-us/training/dynamics365/">Microsoft Learn</a></td>
-<td>PSCM 467 · ERP System</td>
-<td>PSCM 467 — ERP System #4</td>
-<td>⬜ To Do</td>
-</tr>
-<tr>
-<td><strong>Business Communication Certificate</strong></td>
-<td><a href="https://www.life-global.org">HP LIFE</a></td>
-<td>PSCM 165 · Stores Administration</td>
-<td>PSCM 165 + Project 3</td>
-<td>Completed✅</td>
-</tr>
-<tr>
-<td><strong>Agile Project Management</strong></td>
-<td><a href="https://www.life-global.org">HP LIFE</a></td>
-<td>PSCM 272 · Procurement Planning</td>
-<td>PSCM 272 + Project 6</td>
-<td>Completed✅</td>
-</tr>
-</tbody>
-</table>
-<📄 **View full certifications page<td><a href="https://ofrank-design.github.io"/ <h2 align="center">→ 📄 **View full certifications
-
-
-  
-
-</div>
-
-<h2 align="center"> 📈 GitHub Stats </h2>
-  <img src="https://github-readme-stats.vercel.app/api?username=Ofrank-design&show_icons=true&theme=chartreuse-dark&hide_border=true" width="48%"/>
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Ofrank-design&show_icons=true&theme=chartreuse-dark&hide_border=true&count_private=true" width="48%"/>
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=Ofrank-design&theme=chartreuse-dark&hide_border=true" width="48%"/>
 </p>
 
-💻Top Languages 
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ofrank-design&theme=chartreuse-dark&hide_border=true&layout=compact" width="50%"/>
+</p>
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ofrank-design&theme=tokyonight&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
+---
+
+## 🏆 GitHub Trophies
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=Ofrank-design&rank=SECRET,SSS,SS,S,AAA,AA,A,B,C&theme=matrix&no-frame=true&column=6"/>
+</p>
+
+---
+
+## 📈 Contribution Graph
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Ofrank-design&theme=tokyo-night&hide_border=true"/>
+</p>
 
 
 
