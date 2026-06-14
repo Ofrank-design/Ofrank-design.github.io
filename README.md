@@ -187,7 +187,7 @@ CIPS 7-step framework · Make-vs-buy · Competitive tendering
 ```
 
 
-## 📈 GitHub Stats
+<h2 align="center"> 📈 GitHub Stats </h2>
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Ofrank-design&show_icons=true&theme=chartreuse-dark&hide_border=true&count_private=true" width="48%"/>
@@ -200,7 +200,7 @@ CIPS 7-step framework · Make-vs-buy · Competitive tendering
 
 ---
 
-## 🏆 GitHub Trophies
+<h2 align="center">🏆 GitHub Trophies </h2>
 
 <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=Ofrank-design&rank=SECRET,SSS,SS,S,AAA,AA,A,B,C&theme=matrix&no-frame=true&column=6"/>
@@ -208,7 +208,7 @@ CIPS 7-step framework · Make-vs-buy · Competitive tendering
 
 ---
 
-## 📈 Contribution Graph
+<h2 align="center">📈 Contribution Graph </h2>
 
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Ofrank-design&theme=tokyo-night&hide_border=true"/>
@@ -216,17 +216,6 @@ CIPS 7-step framework · Make-vs-buy · Competitive tendering
 
 
 
-<p align="center">🏆 GitHub Trophies </h2>
-  <img src="https://github-profile-trophy.vercel.app/?username=Ofrank-design&rank=SECRET,SSS,SS,S,AAA,AA,A,B,C&theme=matrix&no-frame=true&column=6"/>
-</p>
-<h2 align="center"> 📈Contribution Graph </h2>
-
-<p align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Ofrank-design&theme=tokyo-night&hide_border=true"/>
-
-
-                                  
 <h2 align="center">🤝 Cᴏɴɴᴇᴄᴛ Wɪᴛʜ Mᴇ 🤝 </h2>
 <div align="center">
   
