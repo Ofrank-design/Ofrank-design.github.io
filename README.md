@@ -382,6 +382,6 @@ CIPS 7-step framework · Make-vs-buy · Competitive tendering
   <strong>— Walt Disney</strong>
 </p>
 
-LAST UPDATED: JUNE 10, 2026
+LAST UPDATED: JUNE 14, 2026
 
 </div>
