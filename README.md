@@ -203,9 +203,8 @@ CIPS 7-step framework · Make-vs-buy · Competitive tendering
 <h2 align="center">🏆 GitHub Trophies </h2>
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Ofrank-design&rank=SECRET,SSS,SS,S,AAA,AA,A,B,C&theme=matrix&no-frame=true&column=6"/>
+  <img src="https://github-trophies.vercel.app/?username=Ofrank-design&theme=matrix&no-frame=true&no-bg=true&column=6"/>
 </p>
-
 ---
 
 <h2 align="center">📈 Contribution Graph </h2>
