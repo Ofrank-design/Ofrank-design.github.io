@@ -13,30 +13,20 @@
 ## 🛠️ Tech Stack
 
 <img align="right" width="42%" alt="Tech Stack Animation" src="./Skills_Animation_Dark.gif"/>
-
 ### 📦 Procurement & Supply Chain
-- Ghana PPA Acts 663 & 914
-- Ghana e-GP Portal
-- EOQ Modelling · ABC Analysis
-- Contract Management · Strategic Sourcing
+- Ghana PPA · e-GP · EOQ · ABC · Contract Management · Strategic Sourcing
 
 ### 📊 Analytics & Tools
-- Microsoft Excel · Power BI
-- Python · R · JavaScript
-- Matplotlib · Data Visualization
+- Excel · Power BI · Python · R · JavaScript · Matplotlib
 
 ### ⚙️ ERP Systems
-- SAP MM · Odoo
-- Oracle Cloud · MS Dynamics 365
+- SAP MM · Odoo · Oracle Cloud · MS Dynamics 365
 
 ### 💻 Languages
-- Java · TypeScript · C++
-- Python · R · HTML/CSS
+- Java · TypeScript · C++ · Python · R · HTML/CSS
 
 ### 🛠️ Dev Tools
-- GitHub · VS Code
-- Microsoft Learn · openSAP
-
+- GitHub · VS Code · Microsoft Learn · openSAP
 <br clear="right"/>
 <!-- BADGES -->
 <!--Profile Count Badge-->
