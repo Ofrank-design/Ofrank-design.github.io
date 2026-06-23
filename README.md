@@ -5,29 +5,7 @@
 <div>
   <img align="right" width="40%" src="https://owlbertsio-resized.s3.amazonaws.com/Popper.psd.full.png">
 </div>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./Skills_Animation_Dark.gif">
-  <source media="(prefers-color-scheme: light)" srcset="./Skills_Animation_White.gif">
-  <img align="right" width="42%" alt="Tech Stack" src="./Skills_Animation_White.gif"/>
-</picture>
-## 🛠️ Tech Stack
 
-<img align="right" width="42%" alt="Tech Stack Animation" src="./Skills_Animation_Dark.gif"/>
-### 📦 Procurement & Supply Chain
-- Ghana PPA · e-GP · EOQ · ABC · Contract Management · Strategic Sourcing
-
-### 📊 Analytics & Tools
-- Excel · Power BI · Python · R · JavaScript · Matplotlib
-
-### ⚙️ ERP Systems
-- SAP MM · Odoo · Oracle Cloud · MS Dynamics 365
-
-### 💻 Languages
-- Java · TypeScript · C++ · Python · R · HTML/CSS
-
-### 🛠️ Dev Tools
-- GitHub · VS Code · Microsoft Learn · openSAP
-<br clear="right"/>
 <!-- BADGES -->
 <!--Profile Count Badge-->
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=frank-oduro&label=Profile%20views&color=770677&style=for-the-badge&logo=star" alt="Kiran1689" style="padding-right:20px;" /
